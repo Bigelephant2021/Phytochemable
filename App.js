@@ -35,7 +35,7 @@ export default function App() {
           flashMode={RNCamera.Constants.FlashMode.on}
         />
         <Button
-          title="Capture Photo"
+          title="Capture Label"
           onPress={capturePhoto} // Link the button to the capturePhoto function
         />
         <text>Take a photo of your food nutrition label. The image shall be straight(not slanted) and should contain the ingredients list.</text>
