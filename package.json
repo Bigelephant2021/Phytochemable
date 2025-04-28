@@ -1,6 +1,13 @@
 {
   "dependencies": {
-    "react-native-paper": "4.9.2",
-    "@expo/vector-icons": "^14.0.2"
+    "expo-camera": "~16.0.18",
+    "expo-image": "~2.0.7",
+    "@expo/vector-icons/AntDesign": "^14.0.2",
+    "expo-font": "~13.0.4",
+    "@expo/vector-icons": "^14.0.2",
+    "@expo/vector-icons/Feather": "^14.0.2",
+    "@expo/vector-icons/FontAwesome6": "^14.0.2",
+    "expo-file-system": "~18.0.12",
+    "ocr-space-api-wrapper": "*"
   }
 }
