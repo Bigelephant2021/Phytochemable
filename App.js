@@ -41,7 +41,7 @@ const Camera = () => {
     }
   };
 
-  const next = async (): Promise<string> => {
+  const next = async () => {
     try {
       // Capture the image
       const photo = await ref.current?.takePictureAsync();
