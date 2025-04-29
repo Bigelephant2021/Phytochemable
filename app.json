@@ -1,0 +1,24 @@
+{
+    "expo": {
+      "name": "Phytochemable",
+      "slug": "phytochemable",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "platforms": ["ios", "android"],
+      "ios": {
+        "bundleIdentifier": "com.elestudios.phytochemable",
+        "infoPlist": {
+          "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads."
+        }
+      },
+      "android": {
+        "package": "com.elestudios.phytochemable"
+      },
+      "react-native-google-mobile-ads": {
+        "android_app_id": "ca-app-pub-4498276866149250~4051583156",
+        "ios_app_id": "ca-app-pub-4498276866149250~8721439999",
+        "delay_app_measurement_init": true,
+        "user_tracking_usage_description": "This identifier will be used to deliver personalized ads."
+      }
+    }
+  }

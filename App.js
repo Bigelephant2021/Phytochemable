@@ -14,8 +14,8 @@ const Camera = () => {
   const [permission, requestPermission] = useCameraPermissions();
   const ref = useRef<CameraView>(null);
   const [uri, setUri] = useState<string | null>(null);
-  const [mode, setMode] = useState<CameraMode>("picture");
-  const [facing, setFacing] = useState<CameraType>("back");
+  const [mode] = useState<CameraMode>("picture");
+  const [facing] = useState<CameraType>("back");
 
   if (!permission) {
     return null; // Permissions are still loading
@@ -126,7 +126,11 @@ const Camera = () => {
 };
 
 export default function App() {
-  return <Camera />;
+  return <card><Camera /> <Text>
+  Take a photo of your food nutrition label. The image shall be straight(not slanted) and should contain the ingredients list.
+  </Text>
+  <Text>Made by Elestudios software division.</Text>
+  <NativeAds /></card>
 }
 
 const styles = StyleSheet.create({
