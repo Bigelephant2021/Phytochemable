@@ -32,7 +32,6 @@ const initializeAdsSDK = async () => {
     // Request updated consent info
     // (Optional debug parameters are provided here for testing purposes.)
     await AdsConsent.requestInfoUpdate({
-      debugGeography: AdsConsentDebugGeography.EEA, // Simulate a device within EEA (remove in production)
       testDeviceIdentifiers: ['TEST-DEVICE-HASHED-ID'] // Your test device ID(s)
     });
 
