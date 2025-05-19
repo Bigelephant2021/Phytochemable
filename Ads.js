@@ -8,7 +8,6 @@ import {
 } from 'react-native-permissions';
 import mobileAds, { 
   AdsConsent, 
-  AdsConsentDebugGeography, 
   NativeAd, 
   NativeAdView, 
   NativeAsset, 

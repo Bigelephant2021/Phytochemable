@@ -728,6 +728,6 @@ const exclusionList = [
 ];
 
 // Demo with the provided input string
-const inputString = "Beef, p0rkk, patotoes, carot, swe/eners";
+const inputString = "cabbage, Beef, p0rkk, patotoes, carot, swe/eners";
 const result = parseIngredientsAndGetPhytochemicals(inputString, phytochemicalKeys, exclusionList);
 console.log(JSON.stringify(result, null, 2));
