@@ -35,8 +35,4 @@ Phytochemable is a mobile application developed by Elestudios to help users iden
 
 ## License
 This project is licensed under the Elestudios License. See the `LICENSE.md` file for details.
-
-## Notes
-- The app is designed for a school project (IS gp project).
 - Ensure compliance with the Elestudios License, particularly restrictions on modifying monetization-related files.
-- Replace the test ad unit ID in `Ads.js` with a production ad unit ID for deployment.
